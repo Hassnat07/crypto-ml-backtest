@@ -1,0 +1,22 @@
+# Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data — regenerable via src/download.py (~400 MB)
+data/raw/
+data/parquet/
+
+# Trained models — regenerable via src/train.py
+models/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
